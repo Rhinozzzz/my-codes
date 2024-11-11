@@ -1,0 +1,24 @@
+/*h1 {
+    background-image: url(./images/star.svg);
+    background-position: 0 1.3em;
+    background-size: 10px 9px;
+    background-repeat: repeat-x;
+    padding-bottom: 20px; 
+    display: inline-block; 
+}
+.custom-img-height{
+    height: 20rem;
+}
+
+*/
+
+/* https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/star.svg  */
+
+
+.card:hover{
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+    background: linear-gradient(to top right, #f0efef, #848484);
+    box-shadow: -4px 8px 10px 10px grey;
+    
+}
